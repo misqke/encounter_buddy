@@ -1,0 +1,68 @@
+@mixin fineBorder {
+  border: 2px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background: url(/scroll-bg.jpg);
+  background-position: center;
+  padding: 0.5rem;
+  width: 300px;
+  @include fineBorder();
+}
+
+.search_bar {
+  width: 80%;
+  margin: 0.5rem auto;
+  height: 2.2rem;
+  padding: 3px;
+  @include fineBorder();
+}
+
+.filters_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 0.5rem;
+  width: 65%;
+  div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    input {
+      height: 2rem;
+      @include fineBorder();
+    }
+    select {
+      height: 2rem;
+      @include fineBorder();
+    }
+    label {
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+  }
+}
+
+.display {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem auto;
+  justify-content: center;
+}
+
+@media screen and (min-width: 576px) {
+  .wrapper {
+    width: 400px;
+  }
+}
