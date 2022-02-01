@@ -2,51 +2,102 @@ import React, { useState, useEffect } from "react";
 import { getMonsters } from "../actions/monsters";
 import MinMonsterCard from "../components/MinMonsterCard";
 import styles from "../styles/search.module.scss";
+import { useSelector, useDispatch } from "react-redux";
+import { updateQuery, updateSelected } from "../redux/searchSlice";
 
 const search = () => {
-  const [search, setSearch] = useState("");
-  const [CR, setCR] = useState("");
-  const [type, setType] = useState("any");
+  const dispatch = useDispatch();
+  const query = useSelector((state) => state.search.query);
+  const selected = useSelector((state) => state.search.selected);
   const [monsters, setMonsters] = useState([]);
   const [pages, setPages] = useState(1);
-  const [page, setPage] = useState(1);
+  const [error, setError] = useState("");
+
+  const handlePageClick = (num) => {
+    return () => {
+      if (num === -1) {
+        if (query.page === 1) {
+          return;
+        }
+      }
+      if (num === 1) {
+        if (query.page === pages) {
+          return;
+        }
+      }
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      dispatch(updateQuery({ page: query.page + num }));
+    };
+  };
 
   useEffect(() => {
-    const callForMonsters = async (search, CR, type) => {
-      const data = await getMonsters(search, CR, type, page);
-      setMonsters(data.data);
-      setPages(data.pages);
+    const callForMonsters = async (query) => {
+      const data = await getMonsters(query);
+      if (data.error) {
+        setError("No results found");
+        setMonsters([]);
+        setPages(1);
+      } else {
+        setError("");
+        setMonsters(data.data);
+        setPages(data.pages);
+      }
     };
-    callForMonsters(search, CR, type);
-  }, [search, CR, type, page]);
+    callForMonsters(query);
+  }, [query]);
 
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <input
-          className={styles.search_bar}
-          placeholder="search"
-          type="text"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
+        <div className={styles.input_wrapper}>
+          <input
+            className={styles.search_bar}
+            placeholder="search"
+            type="text"
+            value={query.input}
+            onChange={(e) =>
+              dispatch(updateQuery({ input: e.target.value, page: 1 }))
+            }
+          />
+          <div
+            className={styles.clear}
+            onClick={() => dispatch(updateQuery({ input: "", page: 1 }))}
+          >
+            <div className={styles.bar1}></div>
+            <div className={styles.bar2}></div>
+          </div>
+        </div>
         <div className={styles.filters_container}>
           <div>
             <label htmlFor="cr">CR</label>
-            <input
-              type="text"
-              id="cr"
-              maxLength={3}
-              value={CR}
-              onChange={(e) => setCR(e.target.value)}
-            />
+            <div className={styles.CR_wrapper}>
+              <input
+                type="text"
+                id="cr"
+                maxLength={3}
+                value={query.CR}
+                onChange={(e) =>
+                  dispatch(updateQuery({ CR: e.target.value, page: 1 }))
+                }
+              />
+              <div
+                className={styles.clear}
+                onClick={() => dispatch(updateQuery({ CR: "", page: 1 }))}
+              >
+                <div className={styles.bar1}></div>
+                <div className={styles.bar2}></div>
+              </div>
+            </div>
           </div>
           <div>
             <label htmlFor="type">Type</label>
             <select
               id="type"
-              onChange={(e) => setType(e.target.value)}
-              value={type}
+              onChange={(e) =>
+                dispatch(updateQuery({ type: e.target.value, page: 1 }))
+              }
+              value={query.type}
             >
               <option value="any">any</option>
               <option value="aberration">aberration</option>
@@ -69,10 +120,24 @@ const search = () => {
         </div>
       </div>
       <div className={styles.display}>
+        {error && <h3>{error}</h3>}
         {monsters &&
           monsters.map((monster) => (
             <MinMonsterCard key={monster.name} monster={monster} />
           ))}
+      </div>
+      <div className={styles.btn_container}>
+        <div className={styles.btn} onClick={handlePageClick(-1)}>
+          <div className={styles.slash1}></div>
+          <div className={styles.slash2}></div>
+        </div>
+        <p>
+          {query.page}/{pages}
+        </p>
+        <div className={styles.btn} onClick={handlePageClick(1)}>
+          <div className={styles.slash1}></div>
+          <div className={styles.slash2}></div>
+        </div>
       </div>
     </div>
   );

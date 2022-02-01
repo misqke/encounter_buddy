@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Aboleth",
     "alignment": "lawful evil",
     "size": "Large",
@@ -68,6 +69,7 @@
     }
   },
   {
+    "id": 2,
     "name": "Acolyte",
     "alignment": "any alignment",
     "size": "Medium",
@@ -101,6 +103,7 @@
     ]
   },
   {
+    "id": 3,
     "name": "Adult Black Dragon",
     "alignment": "chaotic evil",
     "size": "Huge",
@@ -171,6 +174,7 @@
     }
   },
   {
+    "id": 4,
     "name": "Adult Blue Dragon",
     "alignment": "lawful evil",
     "size": "Huge",
@@ -240,6 +244,7 @@
     }
   },
   {
+    "id": 5,
     "name": "Adult Brass Dragon",
     "alignment": "chaotic good",
     "size": "Huge",
@@ -309,6 +314,7 @@
     }
   },
   {
+    "id": 6,
     "name": "Adult Bronze Dragon",
     "alignment": "lawful good",
     "size": "Huge",
@@ -383,6 +389,7 @@
     }
   },
   {
+    "id": 7,
     "name": "Adult Copper Dragon",
     "alignment": "chaotic good",
     "size": "Huge",
@@ -452,6 +459,7 @@
     }
   },
   {
+    "id": 8,
     "name": "Adult Gold Dragon",
     "alignment": "lawful good",
     "size": "Huge",
@@ -526,6 +534,7 @@
     }
   },
   {
+    "id": 9,
     "name": "Adult Green Dragon",
     "alignment": "lawful evil",
     "size": "Huge",
@@ -597,6 +606,7 @@
     }
   },
   {
+    "id": 10,
     "name": "Adult Red Dragon",
     "alignment": "chaotic evil",
     "size": "Huge",
@@ -666,6 +676,7 @@
     }
   },
   {
+    "id": 11,
     "name": "Adult Silver Dragon",
     "alignment": "lawful good",
     "size": "Huge",
@@ -739,6 +750,7 @@
     }
   },
   {
+    "id": 12,
     "name": "Adult White Dragon",
     "alignment": "chaotic evil",
     "size": "Huge",
@@ -812,6 +824,7 @@
     }
   },
   {
+    "id": 13,
     "name": "Air Elemental",
     "alignment": "neutral",
     "size": "Large",
@@ -855,6 +868,7 @@
     ]
   },
   {
+    "id": 14,
     "name": "Ancient Black Dragon",
     "alignment": "chaotic evil",
     "size": "Gargantuan",
@@ -925,6 +939,7 @@
     }
   },
   {
+    "id": 15,
     "name": "Ancient Blue Dragon",
     "alignment": "lawful evil",
     "size": "Gargantuan",
@@ -994,6 +1009,7 @@
     }
   },
   {
+    "id": 16,
     "name": "Ancient Brass Dragon",
     "alignment": "chaotic good",
     "size": "Gargantuan",
@@ -1067,6 +1083,7 @@
     }
   },
   {
+    "id": 17,
     "name": "Ancient Bronze Dragon",
     "alignment": "lawful good",
     "size": "Gargantuan",
@@ -1141,6 +1158,7 @@
     }
   },
   {
+    "id": 18,
     "name": "Ancient Copper Dragon",
     "alignment": "chaotic good",
     "size": "Gargantuan",
@@ -1214,6 +1232,7 @@
     }
   },
   {
+    "id": 19,
     "name": "Ancient Gold Dragon",
     "alignment": "lawful good",
     "size": "Gargantuan",
@@ -1288,6 +1307,7 @@
     }
   },
   {
+    "id": 20,
     "name": "Ancient Green Dragon",
     "alignment": "lawful evil",
     "size": "Gargantuan",
@@ -1359,6 +1379,7 @@
     }
   },
   {
+    "id": 21,
     "name": "Ancient Red Dragon",
     "alignment": "chaotic evil",
     "size": "Gargantuan",
@@ -1428,6 +1449,7 @@
     }
   },
   {
+    "id": 22,
     "name": "Ancient Silver Dragon",
     "alignment": "lawful good",
     "size": "Gargantuan",
@@ -1501,6 +1523,7 @@
     }
   },
   {
+    "id": 23,
     "name": "Ancient White Dragon",
     "alignment": "chaotic evil",
     "size": "Gargantuan",
@@ -1574,6 +1597,7 @@
     }
   },
   {
+    "id": 24,
     "name": "Androsphinx",
     "alignment": "lawful neutral",
     "size": "Large",
@@ -1637,6 +1661,7 @@
     }
   },
   {
+    "id": 25,
     "name": "Animated Armor",
     "alignment": "unaligned",
     "size": "Medium",
@@ -1675,6 +1700,7 @@
     ]
   },
   {
+    "id": 26,
     "name": "Ankheg",
     "alignment": "unaligned",
     "size": "Large",
@@ -1704,6 +1730,7 @@
     ]
   },
   {
+    "id": 27,
     "name": "Ape",
     "alignment": "unaligned",
     "size": "Medium",
@@ -1735,6 +1762,7 @@
     ]
   },
   {
+    "id": 28,
     "name": "Archmage",
     "alignment": "any alignment",
     "size": "Medium",
@@ -1778,6 +1806,7 @@
     ]
   },
   {
+    "id": 29,
     "name": "Assassin",
     "alignment": "any non-good alignment",
     "size": "Medium",
@@ -1829,6 +1858,7 @@
     ]
   },
   {
+    "id": 30,
     "name": "Awakened Shrub",
     "alignment": "unaligned",
     "size": "Small",
@@ -1863,6 +1893,7 @@
     ]
   },
   {
+    "id": 31,
     "name": "Awakened Tree",
     "alignment": "unaligned",
     "size": "Huge",
@@ -1897,6 +1928,7 @@
     ]
   },
   {
+    "id": 32,
     "name": "Axe Beak",
     "alignment": "unaligned",
     "size": "Large",
@@ -1922,6 +1954,7 @@
     ]
   },
   {
+    "id": 33,
     "name": "Azer",
     "alignment": "lawful neutral",
     "size": "Medium",
@@ -1969,6 +2002,7 @@
     ]
   },
   {
+    "id": 34,
     "name": "Baboon",
     "alignment": "unaligned",
     "size": "Small",
@@ -2000,6 +2034,7 @@
     ]
   },
   {
+    "id": 35,
     "name": "Badger",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -2031,6 +2066,7 @@
     ]
   },
   {
+    "id": 36,
     "name": "Balor",
     "alignment": "chaotic evil",
     "size": "Huge",
@@ -2091,6 +2127,7 @@
     ]
   },
   {
+    "id": 37,
     "name": "Bandit",
     "alignment": "any non-lawful alignment",
     "size": "Medium",
@@ -2121,6 +2158,7 @@
     ]
   },
   {
+    "id": 38,
     "name": "Bandit Captain",
     "alignment": "any non-lawful alignment",
     "size": "Medium",
@@ -2167,6 +2205,7 @@
     ]
   },
   {
+    "id": 39,
     "name": "Barbed Devil",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -2224,6 +2263,7 @@
     ]
   },
   {
+    "id": 40,
     "name": "Basilisk",
     "alignment": "unaligned",
     "size": "Medium",
@@ -2255,6 +2295,7 @@
     ]
   },
   {
+    "id": 41,
     "name": "Bat",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -2290,6 +2331,7 @@
     ]
   },
   {
+    "id": 42,
     "name": "Bearded Devil",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -2342,6 +2384,7 @@
     ]
   },
   {
+    "id": 43,
     "name": "Behir",
     "alignment": "neutral evil",
     "size": "Huge",
@@ -2386,6 +2429,7 @@
     ]
   },
   {
+    "id": 44,
     "name": "Berserker",
     "alignment": "any chaotic alignment",
     "size": "Medium",
@@ -2418,6 +2462,7 @@
     ]
   },
   {
+    "id": 45,
     "name": "Black Bear",
     "alignment": "unaligned",
     "size": "Medium",
@@ -2457,6 +2502,7 @@
     ]
   },
   {
+    "id": 46,
     "name": "Black Dragon Wyrmling",
     "alignment": "chaotic evil",
     "size": "Medium",
@@ -2493,6 +2539,7 @@
     ]
   },
   {
+    "id": 47,
     "name": "Black Pudding",
     "alignment": "unaligned",
     "size": "Large",
@@ -2540,6 +2587,7 @@
     ]
   },
   {
+    "id": 48,
     "name": "Blink Dog",
     "alignment": "lawful good",
     "size": "Medium",
@@ -2577,6 +2625,7 @@
     ]
   },
   {
+    "id": 49,
     "name": "Blood Hawk",
     "alignment": "unaligned",
     "size": "Small",
@@ -2613,6 +2662,7 @@
     ]
   },
   {
+    "id": 50,
     "name": "Blue Dragon Wyrmling",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -2646,6 +2696,7 @@
     ]
   },
   {
+    "id": 51,
     "name": "Boar",
     "alignment": "unaligned",
     "size": "Medium",
@@ -2681,6 +2732,7 @@
     ]
   },
   {
+    "id": 52,
     "name": "Bone Devil",
     "alignment": "lawful evil",
     "size": "Large",
@@ -2730,6 +2782,7 @@
     ]
   },
   {
+    "id": 53,
     "name": "Brass Dragon Wyrmling",
     "alignment": "chaotic good",
     "size": "Medium",
@@ -2763,6 +2816,7 @@
     ]
   },
   {
+    "id": 54,
     "name": "Bronze Dragon Wyrmling",
     "alignment": "lawful good",
     "size": "Medium",
@@ -2799,6 +2853,7 @@
     ]
   },
   {
+    "id": 55,
     "name": "Brown Bear",
     "alignment": "unaligned",
     "size": "Large",
@@ -2839,6 +2894,7 @@
     ]
   },
   {
+    "id": 56,
     "name": "Bugbear",
     "alignment": "chaotic evil",
     "size": "Medium",
@@ -2884,6 +2940,7 @@
     ]
   },
   {
+    "id": 57,
     "name": "Bulette",
     "alignment": "unaligned",
     "size": "Large",
@@ -2920,6 +2977,7 @@
     ]
   },
   {
+    "id": 58,
     "name": "Camel",
     "alignment": "unaligned",
     "size": "Large",
@@ -2945,6 +3003,7 @@
     ]
   },
   {
+    "id": 59,
     "name": "Cat",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -2977,6 +3036,7 @@
     ]
   },
   {
+    "id": 60,
     "name": "Centaur",
     "alignment": "neutral good",
     "size": "Large",
@@ -3022,6 +3082,7 @@
     ]
   },
   {
+    "id": 61,
     "name": "Chain Devil",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -3076,6 +3137,7 @@
     ]
   },
   {
+    "id": 62,
     "name": "Chimera",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -3119,6 +3181,7 @@
     ]
   },
   {
+    "id": 63,
     "name": "Chuul",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -3163,6 +3226,7 @@
     ]
   },
   {
+    "id": 64,
     "name": "Clay Golem",
     "alignment": "unaligned",
     "size": "Large",
@@ -3218,6 +3282,7 @@
     ]
   },
   {
+    "id": 65,
     "name": "Cloaker",
     "alignment": "chaotic neutral",
     "size": "Large",
@@ -3275,6 +3340,7 @@
     ]
   },
   {
+    "id": 66,
     "name": "Cloud Giant",
     "alignment": "neutral good (50%) or neutral evil (50%)",
     "size": "Huge",
@@ -3321,6 +3387,7 @@
     ]
   },
   {
+    "id": 67,
     "name": "Cockatrice",
     "alignment": "unaligned",
     "size": "Small",
@@ -3346,6 +3413,7 @@
     ]
   },
   {
+    "id": 68,
     "name": "Commoner",
     "alignment": "any alignment",
     "size": "Medium",
@@ -3372,6 +3440,7 @@
     ]
   },
   {
+    "id": 69,
     "name": "Constrictor Snake",
     "alignment": "unaligned",
     "size": "Large",
@@ -3401,6 +3470,7 @@
     ]
   },
   {
+    "id": 70,
     "name": "Copper Dragon Wyrmling",
     "alignment": "chaotic good",
     "size": "Medium",
@@ -3434,6 +3504,7 @@
     ]
   },
   {
+    "id": 71,
     "name": "Couatl",
     "alignment": "lawful good",
     "size": "Medium",
@@ -3485,6 +3556,7 @@
     ]
   },
   {
+    "id": 72,
     "name": "Crab",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -3514,6 +3586,7 @@
     ]
   },
   {
+    "id": 73,
     "name": "Crocodile",
     "alignment": "unaligned",
     "size": "Large",
@@ -3546,6 +3619,7 @@
     ]
   },
   {
+    "id": 74,
     "name": "Cult Fanatic",
     "alignment": "any non-good alignment",
     "size": "Medium",
@@ -3588,6 +3662,7 @@
     ]
   },
   {
+    "id": 75,
     "name": "Cultist",
     "alignment": "any non-good alignment",
     "size": "Medium",
@@ -3621,6 +3696,7 @@
     ]
   },
   {
+    "id": 76,
     "name": "Darkmantle",
     "alignment": "unaligned",
     "size": "Small",
@@ -3661,6 +3737,7 @@
     ]
   },
   {
+    "id": 77,
     "name": "Death Dog",
     "alignment": "neutral evil",
     "size": "Medium",
@@ -3694,6 +3771,7 @@
     ]
   },
   {
+    "id": 78,
     "name": "Deep Gnome (Svirfneblin)",
     "alignment": "neutral good",
     "size": "Small",
@@ -3739,6 +3817,7 @@
     ]
   },
   {
+    "id": 79,
     "name": "Deer",
     "alignment": "unaligned",
     "size": "Medium",
@@ -3764,6 +3843,7 @@
     ]
   },
   {
+    "id": 80,
     "name": "Deva",
     "alignment": "lawful good",
     "size": "Medium",
@@ -3817,6 +3897,7 @@
     ]
   },
   {
+    "id": 81,
     "name": "Dire Wolf",
     "alignment": "unaligned",
     "size": "Large",
@@ -3853,6 +3934,7 @@
     ]
   },
   {
+    "id": 82,
     "name": "Diseased Giant Rat",
     "alignment": "unaligned",
     "size": "Small",
@@ -3888,6 +3970,7 @@
     ]
   },
   {
+    "id": 83,
     "name": "Djinni",
     "alignment": "chaotic good",
     "size": "Large",
@@ -3934,6 +4017,7 @@
     ]
   },
   {
+    "id": 84,
     "name": "Doppelganger",
     "alignment": "unaligned",
     "size": "Medium",
@@ -3984,6 +4068,7 @@
     ]
   },
   {
+    "id": 85,
     "name": "Draft Horse",
     "alignment": "unaligned",
     "size": "Large",
@@ -4009,6 +4094,7 @@
     ]
   },
   {
+    "id": 86,
     "name": "Dragon Turtle",
     "alignment": "neutral",
     "size": "Gargantuan",
@@ -4059,6 +4145,7 @@
     ]
   },
   {
+    "id": 87,
     "name": "Dretch",
     "alignment": "chaotic evil",
     "size": "Small",
@@ -4100,6 +4187,7 @@
     ]
   },
   {
+    "id": 88,
     "name": "Drider",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -4165,6 +4253,7 @@
     ]
   },
   {
+    "id": 89,
     "name": "Drow",
     "alignment": "neutral evil",
     "size": "Medium",
@@ -4210,6 +4299,7 @@
     ]
   },
   {
+    "id": 90,
     "name": "Druid",
     "alignment": "any alignment",
     "size": "Medium",
@@ -4243,6 +4333,7 @@
     ]
   },
   {
+    "id": 91,
     "name": "Dryad",
     "alignment": "neutral",
     "size": "Medium",
@@ -4296,6 +4387,7 @@
     ]
   },
   {
+    "id": 92,
     "name": "Duergar",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -4361,6 +4453,7 @@
     ]
   },
   {
+    "id": 93,
     "name": "Dust Mephit",
     "alignment": "neutral evil",
     "size": "Small",
@@ -4405,6 +4498,7 @@
     ]
   },
   {
+    "id": 94,
     "name": "Eagle",
     "alignment": "unaligned",
     "size": "Small",
@@ -4437,6 +4531,7 @@
     ]
   },
   {
+    "id": 95,
     "name": "Earth Elemental",
     "alignment": "neutral",
     "size": "Large",
@@ -4481,6 +4576,7 @@
     ]
   },
   {
+    "id": 96,
     "name": "Efreeti",
     "alignment": "lawful evil",
     "size": "Large",
@@ -4527,6 +4623,7 @@
     ]
   },
   {
+    "id": 97,
     "name": "Elephant",
     "alignment": "unaligned",
     "size": "Huge",
@@ -4562,6 +4659,7 @@
     ]
   },
   {
+    "id": 98,
     "name": "Elk",
     "alignment": "unaligned",
     "size": "Large",
@@ -4597,6 +4695,7 @@
     ]
   },
   {
+    "id": 99,
     "name": "Erinyes",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -4652,6 +4751,7 @@
     ]
   },
   {
+    "id": 100,
     "name": "Ettercap",
     "alignment": "neutral evil",
     "size": "Medium",
@@ -4704,6 +4804,7 @@
     ]
   },
   {
+    "id": 101,
     "name": "Ettin",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -4749,6 +4850,7 @@
     ]
   },
   {
+    "id": 102,
     "name": "Fire Elemental",
     "alignment": "neutral",
     "size": "Large",
@@ -4796,6 +4898,7 @@
     ]
   },
   {
+    "id": 103,
     "name": "Fire Giant",
     "alignment": "lawful evil",
     "size": "Huge",
@@ -4833,6 +4936,7 @@
     ]
   },
   {
+    "id": 104,
     "name": "Flesh Golem",
     "alignment": "neutral",
     "size": "Medium",
@@ -4888,6 +4992,7 @@
     ]
   },
   {
+    "id": 105,
     "name": "Flying Snake",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -4919,6 +5024,7 @@
     ]
   },
   {
+    "id": 106,
     "name": "Flying Sword",
     "alignment": "unaligned",
     "size": "Small",
@@ -4957,6 +5063,7 @@
     ]
   },
   {
+    "id": 107,
     "name": "Frog",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -4984,6 +5091,7 @@
     ]
   },
   {
+    "id": 108,
     "name": "Frost Giant",
     "alignment": "neutral evil",
     "size": "Huge",
@@ -5021,6 +5129,7 @@
     ]
   },
   {
+    "id": 109,
     "name": "Gargoyle",
     "alignment": "chaotic evil",
     "size": "Medium",
@@ -5064,6 +5173,7 @@
     ]
   },
   {
+    "id": 110,
     "name": "Gelatinous Cube",
     "alignment": "unaligned",
     "size": "Large",
@@ -5104,6 +5214,7 @@
     ]
   },
   {
+    "id": 111,
     "name": "Ghast",
     "alignment": "chaotic evil",
     "size": "Medium",
@@ -5147,6 +5258,7 @@
     ]
   },
   {
+    "id": 112,
     "name": "Ghost",
     "alignment": "any alignment",
     "size": "Medium",
@@ -5198,6 +5310,7 @@
     ]
   },
   {
+    "id": 113,
     "name": "Ghoul",
     "alignment": "chaotic evil",
     "size": "Medium",
@@ -5230,6 +5343,7 @@
     ]
   },
   {
+    "id": 114,
     "name": "Giant Ape",
     "alignment": "unaligned",
     "size": "Huge",
@@ -5261,6 +5375,7 @@
     ]
   },
   {
+    "id": 115,
     "name": "Giant Badger",
     "alignment": "unaligned",
     "size": "Medium",
@@ -5300,6 +5415,7 @@
     ]
   },
   {
+    "id": 116,
     "name": "Giant Bat",
     "alignment": "unaligned",
     "size": "Large",
@@ -5335,6 +5451,7 @@
     ]
   },
   {
+    "id": 117,
     "name": "Giant Boar",
     "alignment": "unaligned",
     "size": "Large",
@@ -5370,6 +5487,7 @@
     ]
   },
   {
+    "id": 118,
     "name": "Giant Centipede",
     "alignment": "unaligned",
     "size": "Small",
@@ -5395,6 +5513,7 @@
     ]
   },
   {
+    "id": 119,
     "name": "Giant Constrictor Snake",
     "alignment": "unaligned",
     "size": "Huge",
@@ -5425,6 +5544,7 @@
     ]
   },
   {
+    "id": 120,
     "name": "Giant Crab",
     "alignment": "unaligned",
     "size": "Medium",
@@ -5454,6 +5574,7 @@
     ]
   },
   {
+    "id": 121,
     "name": "Giant Crocodile",
     "alignment": "unaligned",
     "size": "Huge",
@@ -5494,6 +5615,7 @@
     ]
   },
   {
+    "id": 122,
     "name": "Giant Eagle",
     "alignment": "neutral good",
     "size": "Large",
@@ -5535,6 +5657,7 @@
     ]
   },
   {
+    "id": 123,
     "name": "Giant Elk",
     "alignment": "unaligned",
     "size": "Huge",
@@ -5572,6 +5695,7 @@
     ]
   },
   {
+    "id": 124,
     "name": "Giant Fire Beetle",
     "alignment": "unaligned",
     "size": "Small",
@@ -5603,6 +5727,7 @@
     ]
   },
   {
+    "id": 125,
     "name": "Giant Frog",
     "alignment": "unaligned",
     "size": "Medium",
@@ -5640,6 +5765,7 @@
     ]
   },
   {
+    "id": 126,
     "name": "Giant Goat",
     "alignment": "unaligned",
     "size": "Large",
@@ -5675,6 +5801,7 @@
     ]
   },
   {
+    "id": 127,
     "name": "Giant Hyena",
     "alignment": "unaligned",
     "size": "Large",
@@ -5707,6 +5834,7 @@
     ]
   },
   {
+    "id": 128,
     "name": "Giant Lizard",
     "alignment": "unaligned",
     "size": "Large",
@@ -5732,6 +5860,7 @@
     ]
   },
   {
+    "id": 129,
     "name": "Giant Octopus",
     "alignment": "unaligned",
     "size": "Large",
@@ -5776,6 +5905,7 @@
     ]
   },
   {
+    "id": 130,
     "name": "Giant Owl",
     "alignment": "neutral",
     "size": "Large",
@@ -5813,6 +5943,7 @@
     ]
   },
   {
+    "id": 131,
     "name": "Giant Poisonous Snake",
     "alignment": "unaligned",
     "size": "Medium",
@@ -5839,6 +5970,7 @@
     ]
   },
   {
+    "id": 132,
     "name": "Giant Rat",
     "alignment": "unaligned",
     "size": "Small",
@@ -5874,6 +6006,7 @@
     ]
   },
   {
+    "id": 133,
     "name": "Giant Scorpion",
     "alignment": "unaligned",
     "size": "Large",
@@ -5907,6 +6040,7 @@
     ]
   },
   {
+    "id": 134,
     "name": "Giant Sea Horse",
     "alignment": "unaligned",
     "size": "Large",
@@ -5942,6 +6076,7 @@
     ]
   },
   {
+    "id": 135,
     "name": "Giant Shark",
     "alignment": "unaligned",
     "size": "Huge",
@@ -5978,6 +6113,7 @@
     ]
   },
   {
+    "id": 136,
     "name": "Giant Spider",
     "alignment": "unaligned",
     "size": "Large",
@@ -6022,6 +6158,7 @@
     ]
   },
   {
+    "id": 137,
     "name": "Giant Toad",
     "alignment": "unaligned",
     "size": "Large",
@@ -6058,6 +6195,7 @@
     ]
   },
   {
+    "id": 138,
     "name": "Giant Vulture",
     "alignment": "neutral evil",
     "size": "Large",
@@ -6103,6 +6241,7 @@
     ]
   },
   {
+    "id": 139,
     "name": "Giant Wasp",
     "alignment": "unaligned",
     "size": "Medium",
@@ -6128,6 +6267,7 @@
     ]
   },
   {
+    "id": 140,
     "name": "Giant Weasel",
     "alignment": "unaligned",
     "size": "Medium",
@@ -6160,6 +6300,7 @@
     ]
   },
   {
+    "id": 141,
     "name": "Giant Wolf Spider",
     "alignment": "unaligned",
     "size": "Medium",
@@ -6200,6 +6341,7 @@
     ]
   },
   {
+    "id": 142,
     "name": "Gibbering Mouther",
     "alignment": "neutral",
     "size": "Medium",
@@ -6244,6 +6386,7 @@
     ]
   },
   {
+    "id": 143,
     "name": "Glabrezu",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -6292,6 +6435,7 @@
     ]
   },
   {
+    "id": 144,
     "name": "Gladiator",
     "alignment": "any alignment",
     "size": "Medium",
@@ -6352,6 +6496,7 @@
     ]
   },
   {
+    "id": 145,
     "name": "Gnoll",
     "alignment": "chaotic evil",
     "size": "Medium",
@@ -6400,6 +6545,7 @@
     ]
   },
   {
+    "id": 146,
     "name": "Goat",
     "alignment": "unaligned",
     "size": "Medium",
@@ -6435,6 +6581,7 @@
     ]
   },
   {
+    "id": 147,
     "name": "Goblin",
     "alignment": "neutral evil",
     "size": "Small",
@@ -6472,6 +6619,7 @@
     ]
   },
   {
+    "id": 148,
     "name": "Gold Dragon Wyrmling",
     "alignment": "lawful good",
     "size": "Medium",
@@ -6508,6 +6656,7 @@
     ]
   },
   {
+    "id": 149,
     "name": "Gorgon",
     "alignment": "unaligned",
     "size": "Large",
@@ -6549,6 +6698,7 @@
     ]
   },
   {
+    "id": 150,
     "name": "Gray Ooze",
     "alignment": "unaligned",
     "size": "Medium",
@@ -6591,6 +6741,7 @@
     ]
   },
   {
+    "id": 151,
     "name": "Green Dragon Wyrmling",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -6628,6 +6779,7 @@
     ]
   },
   {
+    "id": 152,
     "name": "Green Hag",
     "alignment": "neutral evil",
     "size": "Medium",
@@ -6674,6 +6826,7 @@
     ]
   },
   {
+    "id": 153,
     "name": "Grick",
     "alignment": "neutral",
     "size": "Medium",
@@ -6714,6 +6867,7 @@
     ]
   },
   {
+    "id": 154,
     "name": "Griffon",
     "alignment": "unaligned",
     "size": "Large",
@@ -6754,6 +6908,7 @@
     ]
   },
   {
+    "id": 155,
     "name": "Grimlock",
     "alignment": "neutral evil",
     "size": "Medium",
@@ -6796,6 +6951,7 @@
     ]
   },
   {
+    "id": 156,
     "name": "Guard",
     "alignment": "any alignment",
     "size": "Medium",
@@ -6831,6 +6987,7 @@
     ]
   },
   {
+    "id": 157,
     "name": "Guardian Naga",
     "alignment": "lawful good",
     "size": "Large",
@@ -6874,6 +7031,7 @@
     ]
   },
   {
+    "id": 158,
     "name": "Gynosphinx",
     "alignment": "lawful neutral",
     "size": "Large",
@@ -6933,6 +7091,7 @@
     }
   },
   {
+    "id": 159,
     "name": "Half-Red Dragon Veteran",
     "alignment": "any",
     "size": "Medium",
@@ -6981,6 +7140,7 @@
     ]
   },
   {
+    "id": 160,
     "name": "Harpy",
     "alignment": "chaotic evil",
     "size": "Medium",
@@ -7019,6 +7179,7 @@
     ]
   },
   {
+    "id": 161,
     "name": "Hawk",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -7051,6 +7212,7 @@
     ]
   },
   {
+    "id": 162,
     "name": "Hell Hound",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -7093,6 +7255,7 @@
     ]
   },
   {
+    "id": 163,
     "name": "Hezrou",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -7141,6 +7304,7 @@
     ]
   },
   {
+    "id": 164,
     "name": "Hill Giant",
     "alignment": "chaotic evil",
     "size": "Huge",
@@ -7176,6 +7340,7 @@
     ]
   },
   {
+    "id": 165,
     "name": "Hippogriff",
     "alignment": "unaligned",
     "size": "Large",
@@ -7216,6 +7381,7 @@
     ]
   },
   {
+    "id": 166,
     "name": "Hobgoblin",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -7256,6 +7422,7 @@
     ]
   },
   {
+    "id": 167,
     "name": "Homunculus",
     "alignment": "neutral",
     "size": "Tiny",
@@ -7290,6 +7457,7 @@
     ]
   },
   {
+    "id": 168,
     "name": "Horned Devil",
     "alignment": "lawful evil",
     "size": "Large",
@@ -7342,6 +7510,7 @@
     ]
   },
   {
+    "id": 169,
     "name": "Hunter Shark",
     "alignment": "unaligned",
     "size": "Large",
@@ -7378,6 +7547,7 @@
     ]
   },
   {
+    "id": 170,
     "name": "Hydra",
     "alignment": "unaligned",
     "size": "Huge",
@@ -7426,6 +7596,7 @@
     ]
   },
   {
+    "id": 171,
     "name": "Hyena",
     "alignment": "unaligned",
     "size": "Medium",
@@ -7458,6 +7629,7 @@
     ]
   },
   {
+    "id": 172,
     "name": "Ice Devil",
     "alignment": "lawful evil",
     "size": "Large",
@@ -7514,6 +7686,7 @@
     ]
   },
   {
+    "id": 173,
     "name": "Ice Mephit",
     "alignment": "neutral evil",
     "size": "Small",
@@ -7562,6 +7735,7 @@
     ]
   },
   {
+    "id": 174,
     "name": "Imp",
     "alignment": "shapechanger)",
     "size": "Tiny",
@@ -7610,6 +7784,7 @@
     ]
   },
   {
+    "id": 175,
     "name": "Incubus",
     "alignment": "neutral evil",
     "size": "Medium",
@@ -7660,6 +7835,7 @@
     ]
   },
   {
+    "id": 176,
     "name": "Invisible Stalker",
     "alignment": "neutral",
     "size": "Medium",
@@ -7698,6 +7874,7 @@
     ]
   },
   {
+    "id": 177,
     "name": "Iron Golem",
     "alignment": "unaligned",
     "size": "Large",
@@ -7753,6 +7930,7 @@
     ]
   },
   {
+    "id": 178,
     "name": "Jackal",
     "alignment": "unaligned",
     "size": "Small",
@@ -7789,6 +7967,7 @@
     ]
   },
   {
+    "id": 179,
     "name": "Killer Whale",
     "alignment": "unaligned",
     "size": "Huge",
@@ -7829,6 +8008,7 @@
     ]
   },
   {
+    "id": 180,
     "name": "Knight",
     "alignment": "any alignment",
     "size": "Medium",
@@ -7877,6 +8057,7 @@
     ]
   },
   {
+    "id": 181,
     "name": "Kobold",
     "alignment": "lawful evil",
     "size": "Small",
@@ -7917,6 +8098,7 @@
     ]
   },
   {
+    "id": 182,
     "name": "Kraken",
     "alignment": "chaotic evil",
     "size": "Gargantuan",
@@ -7990,6 +8172,7 @@
     }
   },
   {
+    "id": 183,
     "name": "Lamia",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -8035,6 +8218,7 @@
     ]
   },
   {
+    "id": 184,
     "name": "Lemure",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -8074,6 +8258,7 @@
     ]
   },
   {
+    "id": 185,
     "name": "Lich",
     "alignment": "any evil alignment",
     "size": "Medium",
@@ -8141,6 +8326,7 @@
     }
   },
   {
+    "id": 186,
     "name": "Lion",
     "alignment": "unaligned",
     "size": "Large",
@@ -8189,6 +8375,7 @@
     ]
   },
   {
+    "id": 187,
     "name": "Lizard",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -8214,6 +8401,7 @@
     ]
   },
   {
+    "id": 188,
     "name": "Lizardfolk",
     "alignment": "neutral",
     "size": "Medium",
@@ -8267,6 +8455,7 @@
     ]
   },
   {
+    "id": 189,
     "name": "Mage",
     "alignment": "any alignment",
     "size": "Medium",
@@ -8305,6 +8494,7 @@
     ]
   },
   {
+    "id": 190,
     "name": "Magma Mephit",
     "alignment": "neutral evil",
     "size": "Small",
@@ -8357,6 +8547,7 @@
     ]
   },
   {
+    "id": 191,
     "name": "Magmin",
     "alignment": "chaotic neutral",
     "size": "Small",
@@ -8395,6 +8586,7 @@
     ]
   },
   {
+    "id": 192,
     "name": "Mammoth",
     "alignment": "unaligned",
     "size": "Huge",
@@ -8430,6 +8622,7 @@
     ]
   },
   {
+    "id": 193,
     "name": "Manticore",
     "alignment": "lawful evil",
     "size": "Large",
@@ -8474,6 +8667,7 @@
     ]
   },
   {
+    "id": 194,
     "name": "Marilith",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -8536,6 +8730,7 @@
     ]
   },
   {
+    "id": 195,
     "name": "Mastiff",
     "alignment": "unaligned",
     "size": "Medium",
@@ -8568,6 +8763,7 @@
     ]
   },
   {
+    "id": 196,
     "name": "Medusa",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -8613,6 +8809,7 @@
     ]
   },
   {
+    "id": 197,
     "name": "Merfolk",
     "alignment": "neutral",
     "size": "Medium",
@@ -8651,6 +8848,7 @@
     ]
   },
   {
+    "id": 198,
     "name": "Merrow",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -8696,6 +8894,7 @@
     ]
   },
   {
+    "id": 199,
     "name": "Mimic",
     "alignment": "neutral",
     "size": "Medium",
@@ -8746,6 +8945,7 @@
     ]
   },
   {
+    "id": 200,
     "name": "Minotaur",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -8791,6 +8991,7 @@
     ]
   },
   {
+    "id": 201,
     "name": "Minotaur Skeleton",
     "alignment": "lawful evil",
     "size": "Large",
@@ -8830,6 +9031,7 @@
     ]
   },
   {
+    "id": 202,
     "name": "Mule",
     "alignment": "unaligned",
     "size": "Medium",
@@ -8865,6 +9067,7 @@
     ]
   },
   {
+    "id": 203,
     "name": "Mummy",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -8904,6 +9107,7 @@
     ]
   },
   {
+    "id": 204,
     "name": "Mummy Lord",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -8982,6 +9186,7 @@
     }
   },
   {
+    "id": 205,
     "name": "Nalfeshnee",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -9034,6 +9239,7 @@
     ]
   },
   {
+    "id": 206,
     "name": "Night Hag",
     "alignment": "neutral evil",
     "size": "Medium",
@@ -9089,6 +9295,7 @@
     ]
   },
   {
+    "id": 207,
     "name": "Nightmare",
     "alignment": "neutral evil",
     "size": "Large",
@@ -9130,6 +9337,7 @@
     ]
   },
   {
+    "id": 208,
     "name": "Noble",
     "alignment": "any alignment",
     "size": "Medium",
@@ -9163,6 +9371,7 @@
     ]
   },
   {
+    "id": 209,
     "name": "Ochre Jelly",
     "alignment": "unaligned",
     "size": "Large",
@@ -9207,6 +9416,7 @@
     ]
   },
   {
+    "id": 210,
     "name": "Octopus",
     "alignment": "unaligned",
     "size": "Small",
@@ -9251,6 +9461,7 @@
     ]
   },
   {
+    "id": 211,
     "name": "Ogre",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -9285,6 +9496,7 @@
     ]
   },
   {
+    "id": 212,
     "name": "Ogre Zombie",
     "alignment": "neutral evil",
     "size": "Large",
@@ -9320,6 +9532,7 @@
     ]
   },
   {
+    "id": 213,
     "name": "Oni",
     "alignment": "lawful evil",
     "size": "Large",
@@ -9378,6 +9591,7 @@
     ]
   },
   {
+    "id": 214,
     "name": "Orc",
     "alignment": "chaotic evil",
     "size": "Medium",
@@ -9419,6 +9633,7 @@
     ]
   },
   {
+    "id": 215,
     "name": "Otyugh",
     "alignment": "neutral",
     "size": "Large",
@@ -9464,6 +9679,7 @@
     ]
   },
   {
+    "id": 216,
     "name": "Owl",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -9500,6 +9716,7 @@
     ]
   },
   {
+    "id": 217,
     "name": "Owlbear",
     "alignment": "unaligned",
     "size": "Large",
@@ -9540,6 +9757,7 @@
     ]
   },
   {
+    "id": 218,
     "name": "Panther",
     "alignment": "unaligned",
     "size": "Medium",
@@ -9580,6 +9798,7 @@
     ]
   },
   {
+    "id": 219,
     "name": "Pegasus",
     "alignment": "chaotic good",
     "size": "Large",
@@ -9608,6 +9827,7 @@
     ]
   },
   {
+    "id": 220,
     "name": "Phase Spider",
     "alignment": "unaligned",
     "size": "Large",
@@ -9648,6 +9868,7 @@
     ]
   },
   {
+    "id": 221,
     "name": "Pit Fiend",
     "alignment": "lawful evil",
     "size": "Large",
@@ -9712,6 +9933,7 @@
     ]
   },
   {
+    "id": 222,
     "name": "Planetar",
     "alignment": "lawful good",
     "size": "Large",
@@ -9768,6 +9990,7 @@
     ]
   },
   {
+    "id": 223,
     "name": "Plesiosaurus",
     "alignment": "unaligned",
     "size": "Large",
@@ -9800,6 +10023,7 @@
     ]
   },
   {
+    "id": 224,
     "name": "Poisonous Snake",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -9825,6 +10049,7 @@
     ]
   },
   {
+    "id": 225,
     "name": "Polar Bear",
     "alignment": "unaligned",
     "size": "Large",
@@ -9865,6 +10090,7 @@
     ]
   },
   {
+    "id": 226,
     "name": "Pony",
     "alignment": "unaligned",
     "size": "Medium",
@@ -9890,6 +10116,7 @@
     ]
   },
   {
+    "id": 227,
     "name": "Priest",
     "alignment": "any alignment",
     "size": "Medium",
@@ -9927,6 +10154,7 @@
     ]
   },
   {
+    "id": 228,
     "name": "Pseudodragon",
     "alignment": "neutral good",
     "size": "Tiny",
@@ -9972,6 +10200,7 @@
     ]
   },
   {
+    "id": 229,
     "name": "Purple Worm",
     "alignment": "unaligned",
     "size": "Gargantuan",
@@ -10012,6 +10241,7 @@
     ]
   },
   {
+    "id": 230,
     "name": "Quasit",
     "alignment": "chaotic evil",
     "size": "Tiny",
@@ -10060,6 +10290,7 @@
     ]
   },
   {
+    "id": 231,
     "name": "Quipper",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -10095,6 +10326,7 @@
     ]
   },
   {
+    "id": 232,
     "name": "Rakshasa",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -10135,6 +10367,7 @@
     ]
   },
   {
+    "id": 233,
     "name": "Rat",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -10166,6 +10399,7 @@
     ]
   },
   {
+    "id": 234,
     "name": "Raven",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -10198,6 +10432,7 @@
     ]
   },
   {
+    "id": 235,
     "name": "Red Dragon Wyrmling",
     "alignment": "chaotic evil",
     "size": "Medium",
@@ -10231,6 +10466,7 @@
     ]
   },
   {
+    "id": 236,
     "name": "Reef Shark",
     "alignment": "unaligned",
     "size": "Medium",
@@ -10267,6 +10503,7 @@
     ]
   },
   {
+    "id": 237,
     "name": "Remorhaz",
     "alignment": "unaligned",
     "size": "Huge",
@@ -10303,6 +10540,7 @@
     ]
   },
   {
+    "id": 238,
     "name": "Rhinoceros",
     "alignment": "unaligned",
     "size": "Large",
@@ -10334,6 +10572,7 @@
     ]
   },
   {
+    "id": 239,
     "name": "Riding Horse",
     "alignment": "unaligned",
     "size": "Large",
@@ -10359,6 +10598,7 @@
     ]
   },
   {
+    "id": 240,
     "name": "Roc",
     "alignment": "unaligned",
     "size": "Gargantuan",
@@ -10400,6 +10640,7 @@
     ]
   },
   {
+    "id": 241,
     "name": "Roper",
     "alignment": "neutral evil",
     "size": "Large",
@@ -10452,6 +10693,7 @@
     ]
   },
   {
+    "id": 242,
     "name": "Rug of Smothering",
     "alignment": "unaligned",
     "size": "Large",
@@ -10493,6 +10735,7 @@
     ]
   },
   {
+    "id": 243,
     "name": "Rust Monster",
     "alignment": "unaligned",
     "size": "Medium",
@@ -10532,6 +10775,7 @@
     ]
   },
   {
+    "id": 244,
     "name": "Saber-Toothed Tiger",
     "alignment": "unaligned",
     "size": "Large",
@@ -10572,6 +10816,7 @@
     ]
   },
   {
+    "id": 245,
     "name": "Sahuagin",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -10633,6 +10878,7 @@
     ]
   },
   {
+    "id": 246,
     "name": "Salamander",
     "alignment": "neutral evil",
     "size": "Large",
@@ -10688,6 +10934,7 @@
     ]
   },
   {
+    "id": 247,
     "name": "Satyr",
     "alignment": "chaotic neutral",
     "size": "Medium",
@@ -10729,6 +10976,7 @@
     ]
   },
   {
+    "id": 248,
     "name": "Scorpion",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -10754,6 +11002,7 @@
     ]
   },
   {
+    "id": 249,
     "name": "Scout",
     "alignment": "any alignment",
     "size": "Medium",
@@ -10795,6 +11044,7 @@
     ]
   },
   {
+    "id": 250,
     "name": "Sea Hag",
     "alignment": "chaotic evil",
     "size": "Medium",
@@ -10836,6 +11086,7 @@
     ]
   },
   {
+    "id": 251,
     "name": "Sea Horse",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -10861,6 +11112,7 @@
     ]
   },
   {
+    "id": 252,
     "name": "Shadow",
     "alignment": "chaotic evil",
     "size": "Medium",
@@ -10905,6 +11157,7 @@
     ]
   },
   {
+    "id": 253,
     "name": "Shambling Mound",
     "alignment": "unaligned",
     "size": "Large",
@@ -10948,6 +11201,7 @@
     ]
   },
   {
+    "id": 254,
     "name": "Shield Guardian",
     "alignment": "unaligned",
     "size": "Large",
@@ -10997,6 +11251,7 @@
     ]
   },
   {
+    "id": 255,
     "name": "Shrieker",
     "alignment": "unaligned",
     "size": "Medium",
@@ -11029,6 +11284,7 @@
     ]
   },
   {
+    "id": 256,
     "name": "Silver Dragon Wyrmling",
     "alignment": "lawful good",
     "size": "Medium",
@@ -11062,6 +11318,7 @@
     ]
   },
   {
+    "id": 257,
     "name": "Skeleton",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -11095,6 +11352,7 @@
     ]
   },
   {
+    "id": 258,
     "name": "Solar",
     "alignment": "lawful good",
     "size": "Large",
@@ -11177,6 +11435,7 @@
     }
   },
   {
+    "id": 259,
     "name": "Specter",
     "alignment": "chaotic evil",
     "size": "Medium",
@@ -11216,6 +11475,7 @@
     ]
   },
   {
+    "id": 260,
     "name": "Spider",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -11256,6 +11516,7 @@
     ]
   },
   {
+    "id": 261,
     "name": "Spirit Naga",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -11295,6 +11556,7 @@
     ]
   },
   {
+    "id": 262,
     "name": "Sprite",
     "alignment": "neutral good",
     "size": "Tiny",
@@ -11334,6 +11596,7 @@
     ]
   },
   {
+    "id": 263,
     "name": "Spy",
     "alignment": "any alignment",
     "size": "Medium",
@@ -11376,6 +11639,7 @@
     ]
   },
   {
+    "id": 264,
     "name": "Steam Mephit",
     "alignment": "neutral evil",
     "size": "Small",
@@ -11418,6 +11682,7 @@
     ]
   },
   {
+    "id": 265,
     "name": "Stirge",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -11443,6 +11708,7 @@
     ]
   },
   {
+    "id": 266,
     "name": "Stone Giant",
     "alignment": "neutral",
     "size": "Huge",
@@ -11491,6 +11757,7 @@
     ]
   },
   {
+    "id": 267,
     "name": "Stone Golem",
     "alignment": "unaligned",
     "size": "Large",
@@ -11538,6 +11805,7 @@
     ]
   },
   {
+    "id": 268,
     "name": "Storm Giant",
     "alignment": "chaotic good",
     "size": "Huge",
@@ -11587,6 +11855,7 @@
     ]
   },
   {
+    "id": 269,
     "name": "Succubus",
     "alignment": "neutral evil",
     "size": "Medium",
@@ -11637,6 +11906,7 @@
     ]
   },
   {
+    "id": 270,
     "name": "Succubus (Incubus)",
     "alignment": "neutral evil",
     "size": "Medium",
@@ -11687,6 +11957,7 @@
     ]
   },
   {
+    "id": 271,
     "name": "Swarm of Bats",
     "alignment": "unaligned",
     "size": "Medium",
@@ -11732,6 +12003,7 @@
     ]
   },
   {
+    "id": 272,
     "name": "Swarm of Beetles",
     "alignment": "unaligned",
     "size": "Medium",
@@ -11769,6 +12041,7 @@
     ]
   },
   {
+    "id": 273,
     "name": "Swarm of Centipedes",
     "alignment": "unaligned",
     "size": "Medium",
@@ -11806,6 +12079,7 @@
     ]
   },
   {
+    "id": 274,
     "name": "Swarm of Insects",
     "alignment": "unaligned",
     "size": "Medium",
@@ -11843,6 +12117,7 @@
     ]
   },
   {
+    "id": 275,
     "name": "Swarm of Poisonous Snakes",
     "alignment": "unaligned",
     "size": "Medium",
@@ -11880,6 +12155,7 @@
     ]
   },
   {
+    "id": 276,
     "name": "Swarm of Quippers",
     "alignment": "unaligned",
     "size": "Medium",
@@ -11925,6 +12201,7 @@
     ]
   },
   {
+    "id": 277,
     "name": "Swarm of Rats",
     "alignment": "unaligned",
     "size": "Medium",
@@ -11966,6 +12243,7 @@
     ]
   },
   {
+    "id": 278,
     "name": "Swarm of Ravens",
     "alignment": "unaligned",
     "size": "Medium",
@@ -12003,6 +12281,7 @@
     ]
   },
   {
+    "id": 279,
     "name": "Swarm of Spiders",
     "alignment": "unaligned",
     "size": "Medium",
@@ -12052,6 +12331,7 @@
     ]
   },
   {
+    "id": 280,
     "name": "Swarm of Wasps",
     "alignment": "unaligned",
     "size": "Medium",
@@ -12089,6 +12369,7 @@
     ]
   },
   {
+    "id": 281,
     "name": "Tarrasque",
     "alignment": "unaligned",
     "size": "Gargantuan",
@@ -12173,6 +12454,7 @@
     }
   },
   {
+    "id": 282,
     "name": "Thug",
     "alignment": "any non-good alignment",
     "size": "Medium",
@@ -12211,6 +12493,7 @@
     ]
   },
   {
+    "id": 283,
     "name": "Tiger",
     "alignment": "unaligned",
     "size": "Large",
@@ -12251,6 +12534,7 @@
     ]
   },
   {
+    "id": 284,
     "name": "Treant",
     "alignment": "chaotic good",
     "size": "Huge",
@@ -12298,6 +12582,7 @@
     ]
   },
   {
+    "id": 285,
     "name": "Tribal Warrior",
     "alignment": "any alignment",
     "size": "Medium",
@@ -12338,6 +12623,7 @@
     ]
   },
   {
+    "id": 286,
     "name": "Triceratops",
     "alignment": "unaligned",
     "size": "Huge",
@@ -12373,6 +12659,7 @@
     ]
   },
   {
+    "id": 287,
     "name": "Troll",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -12418,6 +12705,7 @@
     ]
   },
   {
+    "id": 288,
     "name": "Tyrannosaurus Rex",
     "alignment": "unaligned",
     "size": "Huge",
@@ -12452,6 +12740,7 @@
     ]
   },
   {
+    "id": 289,
     "name": "Unicorn",
     "alignment": "lawful good",
     "size": "Large",
@@ -12531,6 +12820,7 @@
     }
   },
   {
+    "id": 290,
     "name": "Vampire",
     "alignment": "lawful evil",
     "size": "Medium",
@@ -12619,6 +12909,7 @@
     }
   },
   {
+    "id": 291,
     "name": "Vampire Spawn",
     "alignment": "neutral evil",
     "size": "Medium",
@@ -12670,6 +12961,7 @@
     ]
   },
   {
+    "id": 292,
     "name": "Veteran",
     "alignment": "any alignment",
     "size": "Medium",
@@ -12713,6 +13005,7 @@
     ]
   },
   {
+    "id": 293,
     "name": "Violet Fungus",
     "alignment": "unaligned",
     "size": "Medium",
@@ -12749,6 +13042,7 @@
     ]
   },
   {
+    "id": 294,
     "name": "Vrock",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -12801,6 +13095,7 @@
     ]
   },
   {
+    "id": 295,
     "name": "Vulture",
     "alignment": "unaligned",
     "size": "Medium",
@@ -12837,6 +13132,7 @@
     ]
   },
   {
+    "id": 296,
     "name": "Warhorse",
     "alignment": "unaligned",
     "size": "Large",
@@ -12868,6 +13164,7 @@
     ]
   },
   {
+    "id": 297,
     "name": "Warhorse Skeleton",
     "alignment": "lawful evil",
     "size": "Large",
@@ -12896,6 +13193,7 @@
     ]
   },
   {
+    "id": 298,
     "name": "Water Elemental",
     "alignment": "neutral",
     "size": "Large",
@@ -12943,6 +13241,7 @@
     ]
   },
   {
+    "id": 299,
     "name": "Weasel",
     "alignment": "unaligned",
     "size": "Tiny",
@@ -12975,6 +13274,7 @@
     ]
   },
   {
+    "id": 300,
     "name": "Werebear",
     "alignment": "shapechanger)",
     "size": "Medium",
@@ -13025,6 +13325,7 @@
     ]
   },
   {
+    "id": 301,
     "name": "Wereboar",
     "alignment": "shapechanger)",
     "size": "Medium",
@@ -13075,6 +13376,7 @@
     ]
   },
   {
+    "id": 302,
     "name": "Wererat",
     "alignment": "shapechanger)",
     "size": "Medium",
@@ -13125,6 +13427,7 @@
     ]
   },
   {
+    "id": 303,
     "name": "Weretiger",
     "alignment": "shapechanger)",
     "size": "Medium",
@@ -13183,6 +13486,7 @@
     ]
   },
   {
+    "id": 304,
     "name": "Werewolf",
     "alignment": "shapechanger)",
     "size": "Medium",
@@ -13241,6 +13545,7 @@
     ]
   },
   {
+    "id": 305,
     "name": "White Dragon Wyrmling",
     "alignment": "chaotic evil",
     "size": "Medium",
@@ -13274,6 +13579,7 @@
     ]
   },
   {
+    "id": 306,
     "name": "Wight",
     "alignment": "neutral evil",
     "size": "Medium",
@@ -13326,6 +13632,7 @@
     ]
   },
   {
+    "id": 307,
     "name": "Will-o'-Wisp",
     "alignment": "chaotic evil",
     "size": "Tiny",
@@ -13377,6 +13684,7 @@
     ]
   },
   {
+    "id": 308,
     "name": "Winter Wolf",
     "alignment": "neutral evil",
     "size": "Large",
@@ -13423,6 +13731,7 @@
     ]
   },
   {
+    "id": 309,
     "name": "Wolf",
     "alignment": "unaligned",
     "size": "Medium",
@@ -13459,6 +13768,7 @@
     ]
   },
   {
+    "id": 310,
     "name": "Worg",
     "alignment": "neutral evil",
     "size": "Large",
@@ -13492,6 +13802,7 @@
     ]
   },
   {
+    "id": 311,
     "name": "Wraith",
     "alignment": "neutral evil",
     "size": "Medium",
@@ -13535,6 +13846,7 @@
     ]
   },
   {
+    "id": 312,
     "name": "Wyvern",
     "alignment": "unaligned",
     "size": "Large",
@@ -13573,6 +13885,7 @@
     ]
   },
   {
+    "id": 313,
     "name": "Xorn",
     "alignment": "neutral",
     "size": "Medium",
@@ -13623,6 +13936,7 @@
     ]
   },
   {
+    "id": 314,
     "name": "Young Black Dragon",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -13667,6 +13981,7 @@
     ]
   },
   {
+    "id": 315,
     "name": "Young Blue Dragon",
     "alignment": "lawful evil",
     "size": "Large",
@@ -13708,6 +14023,7 @@
     ]
   },
   {
+    "id": 316,
     "name": "Young Brass Dragon",
     "alignment": "chaotic good",
     "size": "Large",
@@ -13749,6 +14065,7 @@
     ]
   },
   {
+    "id": 317,
     "name": "Young Bronze Dragon",
     "alignment": "lawful good",
     "size": "Large",
@@ -13793,6 +14110,7 @@
     ]
   },
   {
+    "id": 318,
     "name": "Young Copper Dragon",
     "alignment": "chaotic good",
     "size": "Large",
@@ -13834,6 +14152,7 @@
     ]
   },
   {
+    "id": 319,
     "name": "Young Gold Dragon",
     "alignment": "lawful good",
     "size": "Large",
@@ -13878,6 +14197,7 @@
     ]
   },
   {
+    "id": 320,
     "name": "Young Green Dragon",
     "alignment": "lawful evil",
     "size": "Large",
@@ -13923,6 +14243,7 @@
     ]
   },
   {
+    "id": 321,
     "name": "Young Red Dragon",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -13964,6 +14285,7 @@
     ]
   },
   {
+    "id": 322,
     "name": "Young Silver Dragon",
     "alignment": "lawful good",
     "size": "Large",
@@ -14005,6 +14327,7 @@
     ]
   },
   {
+    "id": 323,
     "name": "Young White Dragon",
     "alignment": "chaotic evil",
     "size": "Large",
@@ -14052,6 +14375,7 @@
     ]
   },
   {
+    "id": 324,
     "name": "Zombie",
     "alignment": "neutral evil",
     "size": "Medium",

@@ -1,5 +1,5 @@
 @mixin fineBorder {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .container {
@@ -13,19 +13,52 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  background: url(/scroll-bg.jpg);
+  background: url(/scroll-bg-2.jpeg);
   background-position: center;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   width: 300px;
   @include fineBorder();
 }
 
-.search_bar {
+.input_wrapper {
+  position: relative;
   width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.search_bar {
+  width: 100%;
   margin: 0.5rem auto;
   height: 2.2rem;
   padding: 3px;
   @include fineBorder();
+}
+
+.clear {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 50%;
+  width: 2rem;
+  right: 3px;
+  top: 25%;
+  div {
+    height: 2px;
+    width: 70%;
+    background-color: $light;
+  }
+  .bar1 {
+    transform: rotate(45deg);
+    position: absolute;
+  }
+  .bar2 {
+    transform: rotate(-45deg);
+    position: absolute;
+  }
 }
 
 .filters_container {
@@ -33,12 +66,23 @@
   justify-content: space-between;
   margin: 0 auto 0.5rem;
   width: 65%;
+
   div {
     width: 40%;
     display: flex;
     flex-direction: column;
+    .CR_wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      .clear {
+        right: -3px;
+      }
+    }
     input {
       height: 2rem;
+      padding-left: 1rem;
       @include fineBorder();
     }
     select {
@@ -59,6 +103,63 @@
   gap: 1rem;
   margin: 1rem auto;
   justify-content: center;
+}
+
+.btn_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.btn {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin: auto 0;
+  cursor: pointer;
+}
+
+@mixin slash {
+  width: 70%;
+  background-color: #000;
+  height: 4px;
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+}
+
+.slash1,
+.slash2 {
+  @include slash();
+}
+
+.btn:first-child {
+  .slash1 {
+    left: 0;
+    transform: rotate(-30deg);
+    transform-origin: left;
+  }
+  .slash2 {
+    left: 0;
+    transform: rotate(30deg);
+    transform-origin: left;
+    top: 19px;
+  }
+}
+
+.btn:last-child {
+  .slash1 {
+    right: 0;
+
+    transform: rotate(30deg);
+    transform-origin: right;
+  }
+  .slash2 {
+    right: 0;
+    transform: rotate(-30deg);
+    transform-origin: right;
+    top: 19px;
+  }
 }
 
 @media screen and (min-width: 576px) {

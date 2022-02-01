@@ -1,10 +1,10 @@
 .container {
   width: 45%;
-  height: 150px;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
-  background: url(/scroll-bg.jpg);
+  border: 1px solid black;
+  background: url(/scroll-bg-2.jpeg);
   background-position: center;
   padding: 0.5rem;
   justify-content: space-between;
@@ -29,6 +29,6 @@
 
 @media screen and (min-width: 860px) {
   .container {
-    width: 22%;
+    width: 23%;
   }
 }

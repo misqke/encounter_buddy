@@ -1,7 +1,7 @@
 .container {
   width: 100vw;
   min-height: calc(100vh - 90px);
-  background-color: $light;
+  background: url(/scroll-bg.jpg);
 }
 
 .body {
@@ -17,6 +17,6 @@
 
 @media screen and (min-width: 867px) {
   .body {
-    width: 75%;
+    width: 80%;
   }
 }

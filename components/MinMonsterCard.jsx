@@ -2,6 +2,11 @@ import React from "react";
 import styles from "../styles/MinMonsterCard.module.scss";
 
 const MinMonsterCard = ({ monster }) => {
+  let desc = `${monster.size} ${monster.type}, ${monster.alignment}`;
+  if (desc.length > 28) {
+    desc = `${desc.slice(0, 25)}...`;
+  }
+
   return (
     <div className={styles.container}>
       <h3>
@@ -9,8 +14,8 @@ const MinMonsterCard = ({ monster }) => {
           ? `${monster.name.slice(0, 16)}...`
           : monster.name}
       </h3>
-      <h5>{`${monster.size} ${monster.type}, ${monster.alignment}`}</h5>
-      <h5>{monster.challenge}</h5>
+      <h5>{desc}</h5>
+      <h5>Challenge: {monster.challenge}</h5>
     </div>
   );
 };
