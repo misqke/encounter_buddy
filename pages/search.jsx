@@ -6,7 +6,7 @@ import styles from "../styles/search.module.scss";
 import { useSelector, useDispatch } from "react-redux";
 import { updateQuery, updateSelected } from "../redux/searchSlice";
 
-const search = () => {
+const Search = () => {
   const dispatch = useDispatch();
   const query = useSelector((state) => state.search.query);
   const [selected, setSelected] = useState();
@@ -197,4 +197,4 @@ const search = () => {
   }
 };
 
-export default search;
+export default Search;
