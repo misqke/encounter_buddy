@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/MonsterCard.module.scss";
 
-const MonsterCard = ({ monster }) => {
+const MonsterCard = ({ monster, click }) => {
   return (
     <div className={styles.container}>
       <div className={styles.gold_bar}></div>
@@ -102,7 +102,7 @@ const MonsterCard = ({ monster }) => {
         {monster.challenge && (
           <p>
             <span>Challenge </span>
-            {monster.saving_throws}
+            {monster.challenge}
           </p>
         )}
         <div className={styles.red_bar}></div>
@@ -116,37 +116,45 @@ const MonsterCard = ({ monster }) => {
           <div className={styles.actions_container}>
             <h3>ACTIONS</h3>
             <div className={styles.red_line}></div>
-            {monster.actions.map((action, i) => (
-              <p key={`${action.name}-${i}`} className={styles.action}>
-                <span>{action.name}</span> {action.desc}
-              </p>
-            ))}
           </div>
         )}
+        {monster.actions &&
+          monster.actions.map((action, i) => (
+            <p key={`${action.name}-${i}`} className={styles.action}>
+              <span>{action.name}</span> {action.desc}
+            </p>
+          ))}
         {monster.reactions && (
           <div className={styles.actions_container}>
             <h3>REACTIONS</h3>
             <div className={styles.red_line}></div>
-            {monster.reactions.map((reaction, i) => (
-              <p key={`${reaction.name}-${i}`} className={styles.action}>
-                <span>{reaction.name}</span> {reaction.desc}
-              </p>
-            ))}
           </div>
         )}
+        {monster.reactions &&
+          monster.reactions.map((reaction, i) => (
+            <p key={`${reaction.name}-${i}`} className={styles.action}>
+              <span>{reaction.name}</span> {reaction.desc}
+            </p>
+          ))}
         {monster.legendaryActions && (
           <div className={styles.actions_container}>
             <h3>LEGENDARY ACTIONS</h3>
             <div className={styles.red_line}></div>
             <p className={styles.action}>{monster.legendaryActions.desc}</p>
-            {monster.legendaryActions.actions.map((action, i) => (
-              <p key={`${action.name}-${i}`} className={styles.action}>
-                <span>{action.name}</span> {action.desc}
-              </p>
-            ))}
           </div>
         )}
+        {monster.legendaryActions &&
+          monster.legendaryActions.actions.map((action, i) => (
+            <p key={`${action.name}-${i}`} className={styles.action}>
+              <span>{action.name}</span> {action.desc}
+            </p>
+          ))}
+        <div className={styles.clear_selected} onClick={click(monster)}>
+          <div className={styles.bar1}></div>
+          <div className={styles.bar2}></div>
+        </div>
       </div>
+
       <div className={styles.gold_bar}></div>
     </div>
   );

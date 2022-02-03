@@ -1,19 +1,21 @@
 .container {
   display: flex;
   position: absolute;
-  // background-color: #000;
-  width: 106%;
-  height: calc(100vh - 85px);
+  background-color: #3332;
+  backdrop-filter: blur(5px);
+  border: 1px solid #0008;
+  width: 100vw;
+  height: calc(100vh - 90px);
   margin: auto;
   top: 0;
 }
 
 .card {
-  width: 90%;
-  height: 90%;
+  max-width: 90%;
+  height: 95%;
   margin: auto;
-  background: url(/scroll-bg-2.jpeg);
-  background-position: center;
+  background: #dd8d;
+
   overflow-y: scroll;
   padding: 1rem;
   display: flex;
@@ -21,11 +23,36 @@
   position: relative;
   border-left: 1px dashed #111;
   border-right: 1px dashed #111;
+  h2,
+  h3 {
+    color: $main;
+    margin: 0 0 5px;
+  }
+  p {
+    font-weight: 400;
+    color: $main;
+    margin: 0 0 4px;
+    font-size: 14px;
+  }
+  span {
+    font-weight: 650;
+    color: $main;
+  }
+  .description {
+    color: #000;
+    font-style: italic;
+  }
+  .action {
+    color: #000;
+    span {
+      color: #000;
+    }
+  }
 }
 
 .gold_bar {
   width: 95%;
-  height: 7px;
+  min-height: 7px;
   background-color: $gold;
   position: absolute;
   border: 1px solid #000;
@@ -34,9 +61,97 @@
 }
 
 .gold_bar:first-child {
-  top: 5%;
+  top: 2.5%;
 }
 
 .gold_bar:last-child {
-  bottom: 5%;
+  bottom: 2.5%;
+}
+
+.red_bar {
+  min-height: 6px;
+  padding: 1px 0;
+  width: 100%;
+  background: linear-gradient(90deg, $main 0%, $main 35%, transparent 100%);
+  margin: 5px 0;
+  transform: scaleY(50%);
+}
+
+.red_line {
+  width: 100%;
+  min-height: 2px;
+  background: $main;
+  margin: 5px 0;
+}
+
+.attribute_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.attribute_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  p {
+    text-align: center;
+  }
+}
+
+.clear_selected {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 1.75rem;
+  width: 1.75rem;
+  right: 6.5%;
+  div {
+    height: 2px;
+    width: 70%;
+    background-color: #000;
+  }
+  .bar1 {
+    transform: rotate(45deg);
+    position: absolute;
+  }
+  .bar2 {
+    transform: rotate(-45deg);
+    position: absolute;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .attribute_container {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gold_bar {
+    width: 98%;
+    left: 1%;
+  }
+  .card {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    min-width: 95%;
+    padding: 2rem;
+    overflow-x: scroll;
+  }
+
+  .card > * {
+    width: 320px;
+  }
+
+  .clear_selected {
+    width: 2rem;
+    height: 2rem;
+    top: 5%;
+    right: 3%;
+  }
 }

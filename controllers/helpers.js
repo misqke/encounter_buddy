@@ -97,7 +97,12 @@ export const getMonsterCR = (monster) => {
 };
 
 export const getMonsterEXP = (monster) => {
-  let data = monster.challenge.split("(")[1].trim().split(" ")[0].trim();
+  let data = monster.challenge
+    .split("(")[1]
+    .trim()
+    .split(" ")[0]
+    .replace(",", "")
+    .trim();
   return Number(data);
 };
 

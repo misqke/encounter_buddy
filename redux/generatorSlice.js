@@ -7,7 +7,7 @@ const generatorSlice = createSlice({
       partySize: 1,
       partyLevel: 1,
       difficulty: "easy",
-      numEnemies: 1,
+      numEnemies: "random",
       types: [],
     },
     summary: {},
