@@ -9,7 +9,6 @@ const searchSlice = createSlice({
       type: "any",
       page: 1,
     },
-    selected: {},
   },
   reducers: {
     updateQuery: (state, { payload }) => {

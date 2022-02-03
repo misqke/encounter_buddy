@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  position: absolute;
+  // background-color: #000;
+  width: 106%;
+  height: calc(100vh - 85px);
+  margin: auto;
+  top: 0;
+}
+
+.card {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  background: url(/scroll-bg-2.jpeg);
+  background-position: center;
+  overflow-y: scroll;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-left: 1px dashed #111;
+  border-right: 1px dashed #111;
+}
+
+.gold_bar {
+  width: 95%;
+  height: 7px;
+  background-color: $gold;
+  position: absolute;
+  border: 1px solid #000;
+  z-index: 10;
+  left: 2.5%;
+}
+
+.gold_bar:first-child {
+  top: 5%;
+}
+
+.gold_bar:last-child {
+  bottom: 5%;
+}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getMonsters } from "../actions/monsters";
 import MinMonsterCard from "../components/MinMonsterCard";
+import MonsterCard from "../components/MonsterCard";
 import styles from "../styles/search.module.scss";
 import { useSelector, useDispatch } from "react-redux";
 import { updateQuery, updateSelected } from "../redux/searchSlice";
@@ -8,10 +9,17 @@ import { updateQuery, updateSelected } from "../redux/searchSlice";
 const search = () => {
   const dispatch = useDispatch();
   const query = useSelector((state) => state.search.query);
-  const selected = useSelector((state) => state.search.selected);
+  const [selected, setSelected] = useState();
   const [monsters, setMonsters] = useState([]);
   const [pages, setPages] = useState(1);
   const [error, setError] = useState("");
+
+  const handleSelectedClick = (enemy) => {
+    return () => {
+      console.log(enemy);
+      setSelected(enemy);
+    };
+  };
 
   const handlePageClick = (num) => {
     return () => {
@@ -123,7 +131,11 @@ const search = () => {
         {error && <h3>{error}</h3>}
         {monsters &&
           monsters.map((monster) => (
-            <MinMonsterCard key={monster.name} monster={monster} />
+            <MinMonsterCard
+              key={monster.name}
+              monster={monster}
+              click={handleSelectedClick}
+            />
           ))}
       </div>
       <div className={styles.btn_container}>
@@ -139,6 +151,7 @@ const search = () => {
           <div className={styles.slash2}></div>
         </div>
       </div>
+      {selected && <MonsterCard monster={selected} />}
     </div>
   );
 };
