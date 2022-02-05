@@ -12,7 +12,7 @@
   max-width: 600px;
   padding: 1rem;
   border: 1px solid #000;
-  background: url(/scroll-bg-2.jpeg);
+  background: $card;
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -105,7 +105,7 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    background: url(/scroll-bg-2.jpeg);
+    background: $card;
     background-position: center;
     border: 1px solid #000;
     p {
@@ -123,7 +123,7 @@
 .next_btn_right {
   position: fixed;
   min-width: 40px;
-  min-height: 30px;
+  min-height: 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -131,10 +131,9 @@
   z-index: 100;
   cursor: pointer;
   div {
-    min-height: 4px;
+    min-height: 6px;
     min-width: 100%;
     background: #222;
-    backdrop-filter: blur(8px);
     position: relative;
   }
 }
@@ -144,12 +143,12 @@
   .line1 {
     transform: rotate(-65deg);
     transform-origin: left;
-    top: 3px;
+    top: 4px;
   }
   .line2 {
     transform: rotate(65deg);
     transform-origin: left;
-    top: -2px;
+    bottom: 4px;
   }
 }
 .next_btn_right {
@@ -157,12 +156,19 @@
   .line1 {
     transform: rotate(65deg);
     transform-origin: right;
-    bottom: -3px;
+    top: 4px;
   }
   .line2 {
     transform: rotate(-65deg);
     transform-origin: right;
-    bottom: 2px;
+    bottom: 4px;
+  }
+}
+
+.next_btn_left:hover,
+.next_btn_right:hover {
+  div {
+    background: $main;
   }
 }
 

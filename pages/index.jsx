@@ -18,6 +18,24 @@ export default function Home() {
   const [selected, setSelected] = useState();
   const [error, setError] = useState("");
 
+  const types = [
+    "aberration",
+    "beast",
+    "celestial",
+    "construct",
+    "dragon",
+    "elemental",
+    "fey",
+    "fiend",
+    "giant",
+    "humanoid",
+    "monstrosity",
+    "ooze",
+    "plant",
+    "swarm",
+    "undead",
+  ];
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = await generateEncounter(formData);
@@ -64,7 +82,6 @@ export default function Home() {
   };
 
   const handleTypesClick = (e) => {
-    const elem = document.getElementById(e.target.innerHTML);
     const index = formData.types.indexOf(e.target.innerHTML);
     let newTypes = [];
     if (index === -1) {
@@ -76,18 +93,21 @@ export default function Home() {
       ];
     }
     dispatch(updateData({ types: newTypes }));
-    elem.classList.toggle(styles.active);
   };
 
   useEffect(() => {
-    const setActiveTypes = () => {
-      formData.types.forEach((type) => {
+    const activateTypes = () => {
+      types.forEach((type) => {
         const elem = document.getElementById(type);
-        elem.classList.toggle(styles.active);
+        if (formData.types.includes(type)) {
+          elem.classList.add(styles.active);
+        } else {
+          elem.classList.remove(styles.active);
+        }
       });
     };
-    setActiveTypes();
-  }, [formData.types]);
+    !selected && activateTypes();
+  }, [formData.types, types]);
 
   if (!selected) {
     return (
@@ -176,6 +196,7 @@ export default function Home() {
             <label id="dragon" onClick={handleTypesClick}>
               dragon
             </label>
+
             <label id="elemental" onClick={handleTypesClick}>
               elemental
             </label>
@@ -232,10 +253,10 @@ export default function Home() {
             </div>
           )}
           {encounter.length !== 0 &&
-            encounter.map((monster) => (
+            encounter.map((monster, i) => (
               <MinMonsterCard
                 monster={monster}
-                key={monster.id}
+                key={monster.id * Math.random() + 1}
                 click={handleSelectedClick}
               />
             ))}

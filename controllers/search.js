@@ -16,8 +16,8 @@ export const getMonsters = (query) => {
     CR = convertCR(CR);
     data =
       data.length > 0
-        ? getMonstersByCR(CR, exact, data)
-        : getMonstersByCR(CR, exact, monsterList);
+        ? getMonstersByCR(CR, data, exact)
+        : getMonstersByCR(CR, monsterList, exact);
   }
   if (search) {
     data =

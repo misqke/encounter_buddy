@@ -14,11 +14,8 @@ const searchSlice = createSlice({
     updateQuery: (state, { payload }) => {
       state.query = { ...state.query, ...payload };
     },
-    updateSelected: (state, { payload }) => {
-      state.selected = payload;
-    },
   },
 });
 
-export const { updateQuery, updateSelected } = searchSlice.actions;
+export const { updateQuery } = searchSlice.actions;
 export default searchSlice.reducer;

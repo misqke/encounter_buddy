@@ -4,7 +4,7 @@ import MinMonsterCard from "../components/MinMonsterCard";
 import MonsterCard from "../components/MonsterCard";
 import styles from "../styles/search.module.scss";
 import { useSelector, useDispatch } from "react-redux";
-import { updateQuery, updateSelected } from "../redux/searchSlice";
+import { updateQuery } from "../redux/searchSlice";
 
 const Search = () => {
   const dispatch = useDispatch();

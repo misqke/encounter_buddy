@@ -10,6 +10,10 @@ const Layout = ({ children }) => {
         <title>Encounter Buddy</title>
         <meta name="description" content="a dnd 5e encounter generator" />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Permanent+Marker&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Header />
       <div className={styles.body}>{children}</div>

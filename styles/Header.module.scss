@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  height: 90px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +8,83 @@
   color: $main;
   position: fixed;
   top: 0;
-  padding: 0 2rem;
+  padding: 0 3rem;
   z-index: 900;
+}
+
+.inner_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle_btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40px;
+  height: 40px;
+  span {
+    width: 100%;
+    height: 3px;
+    background-color: $light;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 740px) {
+  .toggle_btn {
+    display: flex;
+  }
+
+  .inner_container {
+    width: 100%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .open {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: $dark;
+    color: $main;
+    position: fixed;
+    top: 0;
+    padding: 0 3rem;
+    z-index: 900;
+    .nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0;
+      padding-bottom: 10px;
+      h4 {
+        margin: 5px auto;
+        padding: 5px 0;
+        width: 100%;
+        text-align: center;
+      }
+      h4:hover {
+        color: #000;
+        background-color: $main;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container,
+  .open {
+    padding: 0 1.5rem;
+  }
 }

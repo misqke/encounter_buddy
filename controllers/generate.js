@@ -40,7 +40,7 @@ export const generateEncounter = ({
   const encounter = [];
 
   // recursive function to fill encounter list
-  const fillEncounter = (remainingExp, remainingEnemies, list) => {
+  const fillEncounter = (remainingExp, remainingEnemies, list, trys = 1) => {
     const maxCR = getMaxCR(remainingEnemies, expMultiplier, remainingExp);
     const newList = getMonstersByCR(maxCR, list, false);
     if (newList.length === 0) {
