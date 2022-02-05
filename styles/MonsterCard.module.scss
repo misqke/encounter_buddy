@@ -22,6 +22,7 @@
   position: relative;
   border-left: 1px dashed #111;
   border-right: 1px dashed #111;
+  flex-grow: 1;
   h2,
   h3 {
     color: $cardColor;
@@ -145,7 +146,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 8px;
-    min-width: 95%;
+    max-width: 95%;
     padding: 2rem;
     overflow-x: scroll;
   }

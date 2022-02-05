@@ -21,12 +21,12 @@ const Header = () => {
         </div>
       </div>
       <div className={styles.nav}>
-        <h4>
-          <Link href={"/"}>Generator</Link>
-        </h4>
-        <h4>
-          <Link href={"/Search"}>Search</Link>
-        </h4>
+        <Link href={"/"}>
+          <h4 onClick={() => setOpen(false)}>Generator</h4>
+        </Link>
+        <Link href={"/Search"}>
+          <h4 onClick={() => setOpen(false)}>Search</h4>
+        </Link>
       </div>
     </div>
   );

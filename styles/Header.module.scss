@@ -10,6 +10,7 @@
   top: 0;
   padding: 0 3rem;
   z-index: 900;
+  font-family: "Cinzel", serif;
 }
 
 .inner_container {
@@ -61,6 +62,7 @@
     top: 0;
     padding: 0 3rem;
     z-index: 900;
+    font-family: "Cinzel", serif;
     .nav {
       display: flex;
       flex-direction: column;
@@ -73,6 +75,7 @@
         padding: 5px 0;
         width: 100%;
         text-align: center;
+        cursor: pointer;
       }
       h4:hover {
         color: #000;
