@@ -31,6 +31,7 @@ export const generateEncounter = ({
 
   // get exp threshold and multiplier
   const expThreshold = getExpThreshold(partySize, partyLevel, difficulty);
+
   const expMultiplier = getExpMultiplier(numEnemies);
 
   // filter monsters by type
@@ -40,7 +41,7 @@ export const generateEncounter = ({
   const encounter = [];
 
   // recursive function to fill encounter list
-  const fillEncounter = (remainingExp, remainingEnemies, list, trys = 1) => {
+  const fillEncounter = (remainingExp, remainingEnemies, list) => {
     const maxCR = getMaxCR(remainingEnemies, expMultiplier, remainingExp);
     const newList = getMonstersByCR(maxCR, list, false);
     if (newList.length === 0) {
@@ -59,7 +60,8 @@ export const generateEncounter = ({
       const randomIndex = Math.floor(Math.random() * newList.length);
       const monster = newList[randomIndex];
       encounter.push(monster);
-      const newRemainingExp = remainingExp - getMonsterEXP(monster);
+      const newRemainingExp =
+        remainingExp - getMonsterEXP(monster) * expMultiplier;
       const newRemainingEnemies = remainingEnemies - 1;
       fillEncounter(newRemainingExp, newRemainingEnemies, newList);
     }

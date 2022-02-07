@@ -421,6 +421,6 @@ export const getExpMultiplier = (numEnemies) => {
 
 export const getMaxCR = (numEnemies, multiplier, exp) => {
   const maxExp = exp - (numEnemies - 1) * 10 * multiplier;
-  const maxCR = getCRByExp(maxExp);
+  const maxCR = getCRByExp(maxExp / multiplier);
   return convertCR(maxCR);
 };
