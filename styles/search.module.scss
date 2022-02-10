@@ -127,6 +127,12 @@
   cursor: pointer;
 }
 
+.btn:hover {
+  div {
+    background-color: $main;
+  }
+}
+
 @mixin slash {
   width: 70%;
   background-color: #000;
@@ -178,7 +184,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  top: 55%;
+  top: calc(100vh - 50% - 40px);
   z-index: 100;
   cursor: pointer;
   div {
@@ -219,12 +225,21 @@
 .next_btn_left:hover,
 .next_btn_right:hover {
   div {
-    background: $main;
+    background-color: $main;
   }
 }
 
 @media screen and (min-width: 576px) {
   .wrapper {
     width: 400px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .next_btn_left {
+    left: 12.5%;
+  }
+  .next_btn_right {
+    right: 12.5%;
   }
 }

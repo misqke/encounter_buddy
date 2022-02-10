@@ -4,7 +4,7 @@ const generatorSlice = createSlice({
   name: "generator",
   initialState: {
     formData: {
-      partySize: 1,
+      partySize: 4,
       partyLevel: 1,
       difficulty: "easy",
       numEnemies: "random",

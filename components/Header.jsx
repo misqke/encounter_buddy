@@ -6,7 +6,11 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className={!open ? styles.container : styles.open}>
+    <div
+      className={
+        !open ? styles.container : `${styles.container} ${styles.open}`
+      }
+    >
       <div className={styles.inner_container}>
         <h1>
           <Link href={"/"}>Encounter Buddy</Link>
@@ -20,13 +24,9 @@ const Header = () => {
           <span></span>
         </div>
       </div>
-      <div className={styles.nav}>
-        <Link href={"/"}>
-          <h4 onClick={() => setOpen(false)}>Generator</h4>
-        </Link>
-        <Link href={"/Search"}>
-          <h4 onClick={() => setOpen(false)}>Search</h4>
-        </Link>
+      <div className={styles.nav} onClick={() => setOpen(false)}>
+        <Link href={"/"}>Generator</Link>
+        <Link href={"/Search"}>Search</Link>
       </div>
     </div>
   );

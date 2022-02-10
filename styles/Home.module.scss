@@ -128,7 +128,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  top: 55%;
+  top: calc(100vh - 50% - 40px);
   z-index: 100;
   cursor: pointer;
   div {

@@ -4,8 +4,8 @@ import styles from "../styles/MonsterCard.module.scss";
 const MonsterCard = ({ monster, click }) => {
   return (
     <div className={styles.container}>
-      <div className={styles.gold_bar}></div>
       <div className={styles.card}>
+        <div className={styles.gold_bar}></div>
         <h2>{monster.name.toUpperCase()}</h2>
         <p
           className={styles.description}
@@ -153,9 +153,8 @@ const MonsterCard = ({ monster, click }) => {
           <div className={styles.bar1}></div>
           <div className={styles.bar2}></div>
         </div>
+        <div className={styles.gold_bar}></div>
       </div>
-
-      <div className={styles.gold_bar}></div>
     </div>
   );
 };
