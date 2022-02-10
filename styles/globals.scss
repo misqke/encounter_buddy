@@ -9,6 +9,9 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+::-webkit-scrollbar-track {
+  display: none;
+}
 
 a {
   color: inherit;

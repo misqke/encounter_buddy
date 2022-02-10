@@ -44,6 +44,7 @@
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+  font-weight: 700;
 }
 
 .nav > *:hover {
@@ -83,13 +84,11 @@
     width: 90%;
     text-align: center;
     cursor: pointer;
-    font-weight: 500;
   }
 
   .nav > *:hover {
     color: #000;
     background-color: $main;
-    font-weight: 700;
   }
 
   .open {
