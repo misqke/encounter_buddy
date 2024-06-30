@@ -114,8 +114,7 @@ export default function Home() {
       <div className={styles.container}>
         <form className={styles.form} onSubmit={handleSubmit}>
           <div className={styles.form_box1}>
-            <div className={styles.box1_box}>
-              <div>
+            <div>
                 <label htmlFor="size">Party Size</label>
                 <input
                   id="size"
@@ -141,8 +140,6 @@ export default function Home() {
                   }
                 />
               </div>
-            </div>
-            <div className={styles.box1_box}>
               <div>
                 <label htmlFor="difficulty">Difficulty</label>
                 <select
@@ -178,7 +175,6 @@ export default function Home() {
                   <option value={8}>8</option>
                 </select>
               </div>
-            </div>
           </div>
           <div className={styles.form_box2}>
             <label id="aberration" onClick={handleTypesClick}>
@@ -232,7 +228,7 @@ export default function Home() {
             <button type="submit">Generate</button>
           </div>
         </form>
-        <div className={styles.display}>
+        <div className={styles.resultsInfo}>
           {error && <h3>{error}</h3>}
           {encounter.length !== 0 && (
             <div className={styles.summary_container}>
@@ -252,6 +248,9 @@ export default function Home() {
               </div>
             </div>
           )}
+        </div>
+        <div className={styles.display}>
+          
           {encounter.length !== 0 &&
             encounter.map((monster, i) => (
               <MinMonsterCard
@@ -266,15 +265,15 @@ export default function Home() {
   }
   if (selected) {
     return (
-      <div className={styles.container}>
-        <MonsterCard monster={selected} click={handleSelectedClick} />
+      <div className={styles.modalContainer}>
         <div className={styles.next_btn_left} onClick={handleSelectedArrow(-1)}>
-          <div className={styles.line1}></div>
-          <div className={styles.line2}></div>
+          <img src="circle-chevron-left-solid.svg" />
+        </div>
+        <div className={styles.modalInner}>
+          <MonsterCard monster={selected} click={handleSelectedClick} />
         </div>
         <div className={styles.next_btn_right} onClick={handleSelectedArrow(1)}>
-          <div className={styles.line1}></div>
-          <div className={styles.line2}></div>
+          <img src="circle-chevron-right-solid.svg" />
         </div>
       </div>
     );

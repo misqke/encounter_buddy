@@ -7,7 +7,7 @@ export default function handler(req, res) {
     const exact = req.query.exact || true;
     const search = req.query.search;
     const page = Number(req.query.page) || 1;
-    const limit = Number(req.query.limit) || 12;
+    const limit = Number(req.query.limit) || 16;
     const skip = (page - 1) * limit;
     let data = getMonsters({ types, CR, exact, search });
     if (data.length === 0) {

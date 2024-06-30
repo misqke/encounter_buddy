@@ -165,15 +165,13 @@ const Search = () => {
         </div>
         <div className={styles.btn_container}>
           <div className={styles.btn} onClick={handlePageClick(-1)}>
-            <div className={styles.slash1}></div>
-            <div className={styles.slash2}></div>
+            <img src="circle-chevron-left-solid.svg" />
           </div>
           <p>
             {query.page}/{pages}
           </p>
           <div className={styles.btn} onClick={handlePageClick(1)}>
-            <div className={styles.slash1}></div>
-            <div className={styles.slash2}></div>
+            <img src="circle-chevron-right-solid.svg" />
           </div>
         </div>
       </div>
@@ -182,15 +180,15 @@ const Search = () => {
 
   if (selected) {
     return (
-      <div className={styles.container}>
-        <MonsterCard monster={selected} click={handleSelectedClick} />
+      <div className={styles.modalContainer}>
         <div className={styles.next_btn_left} onClick={handleSelectedArrow(-1)}>
-          <div className={styles.line1}></div>
-          <div className={styles.line2}></div>
+          <img src="circle-chevron-left-solid.svg" />
+        </div>
+        <div className={styles.modalInner}>
+          <MonsterCard monster={selected} click={handleSelectedClick} />
         </div>
         <div className={styles.next_btn_right} onClick={handleSelectedArrow(1)}>
-          <div className={styles.line1}></div>
-          <div className={styles.line2}></div>
+          <img src="circle-chevron-right-solid.svg" />
         </div>
       </div>
     );

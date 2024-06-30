@@ -1,41 +1,18 @@
 .container {
-  display: flex;
-  padding: 1rem;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  background-color: #3332;
-  backdrop-filter: blur(5px);
-  border: 1px solid #0008;
+  
   padding: 0.5rem;
-}
-
-.gold_bar {
-  width: calc(100% + 3rem);
-  min-height: 10px;
-  background-color: $gold;
-  position: relative;
-  left: -1.5rem;
-  border: 1px solid #000;
-  z-index: 10;
-}
-
-.gold_bar:first-child {
-  top: calc(-1rem - 5px);
-}
-
-.gold_bar:last-child {
-  bottom: calc(-1rem - 5px);
+  height: 100%;
 }
 
 .card {
   display: flex;
   position: relative;
   width: 100%;
+  border: 8px ridge $cardColor;
+    box-shadow: 0px 4px 10px 2px #0009;
+  margin: 1rem auto 3rem;
   flex-direction: column;
   background-color: $card;
-  border-left: 1px dashed #111;
-  border-right: 1px dashed #111;
   padding: 1rem;
   h2,
   h3 {
@@ -137,37 +114,19 @@
 }
 
 @media screen and (min-width: 600px) {
-  .container {
-    padding: 1rem;
-  }
+
   .attribute_container {
     width: 80%;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .container {
-    padding: 1.5rem;
-  }
 
   .attribute_container {
     width: 60%;
   }
 
-  .gold_bar {
-    width: calc(100% + 4rem);
-    left: -2rem;
-  }
-  .gold_bar:first-child {
-    top: calc(-1.25rem - 5px);
-  }
-
-  .gold_bar:last-child {
-    bottom: calc(-1.25rem - 5px);
-  }
-
   .card {
-    width: 90%;
     padding: 1.5rem;
     h2 {
       font-size: 28px;
