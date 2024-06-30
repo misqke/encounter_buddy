@@ -18,8 +18,9 @@
   flex-direction: column;
   background: $card;
   background-position: center;
-  padding: 1rem 0.5rem;
-  width: 300px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 400px;
   border: 8px ridge $cardColor;
   box-shadow: 0px 4px 10px 2px #0009;
   
@@ -27,7 +28,7 @@
 
 .input_wrapper {
   position: relative;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -36,8 +37,7 @@
 .search_bar {
   width: 100%;
   margin: 0.5rem auto;
-  height: 2.2rem;
-  padding: 5px;
+
   padding-left: 0.5rem;
   @include fineBorder();
 }
@@ -71,13 +71,13 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto 0.5rem;
-  width: 65%;
+  width: 100%;
   color: $dark;
   text-shadow: 0px 0px 4px $main;
-
+  gap: 1rem;
   font-weight: 600;
   div {
-    width: 40%;
+    flex: 1;
     display: flex;
     flex-direction: column;
     .CR_wrapper {

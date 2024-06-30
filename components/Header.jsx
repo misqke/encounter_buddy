@@ -26,7 +26,7 @@ const Header = () => {
       </div>
       <div className={styles.nav} onClick={() => setOpen(false)}>
         <Link href={"/"}>Generator</Link>
-        <Link href={"/search"}>Search</Link>
+        <Link href={"/search"}>Compendium</Link>
       </div>
     </div>
   );
